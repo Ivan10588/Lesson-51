@@ -30,6 +30,11 @@ body {
 }
 
 /* Шапка */
+.logo-image {
+    height: 40px;
+    width: auto;
+}
+
 .header {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
@@ -66,6 +71,14 @@ body {
 }
 
 /* Главный экран */
+.hero-illustration {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .hero {
     padding: 120px 0 80px;
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
@@ -162,6 +175,14 @@ body {
 }
 
 /* Секция преимуществ */
+.features-illustration {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto 2rem;
+}
+
 .features {
     padding: 80px 0;
     background: var(--bg-light);
@@ -204,6 +225,14 @@ body {
 }
 
 /* Секция «Как это работает» */
+.steps-illustration {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto 2rem;
+}
+
 .steps {
     padding: 80px 0;
 }
@@ -236,6 +265,71 @@ body {
 .step h3 {
     margin: 1rem 0;
     color: var(--secondary-color);
+}
+
+/* География */
+.map-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.map-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.map-caption {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Новости */
+.two-column .news-content {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.news-text {
+    flex: 1;
+}
+
+.news-visual {
+    flex: 1;
+}
+
+.news-illustration {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.news-highlights {
+    list-style: none;
+    padding-left: 0;
+}
+
+.news-highlights li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.news-highlights li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+    font-size: 1.5rem;
 }
 
 /* Секция отзывов */
